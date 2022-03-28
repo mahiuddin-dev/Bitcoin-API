@@ -1,0 +1,35 @@
+
+.form-control {
+    width: unset;
+    margin: 0 !important ;
+    display: unset !important;
+}
+.form-group, .form-group div{
+    margin-right:0 !important ;
+    width: 33%;
+    display: unset !important;
+}
+.cover{
+    text-align: center;
+    justify-content: space-evenly;
+}
+form{
+    margin-bottom: 2rem;
+}
+input{
+    cursor: pointer;
+}
+.chart-container{
+    width: 100% !important;
+}
+
+@media (max-width: 760px) {
+    .form-control{
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .cover{
+        display: block!important
+        }
+}
